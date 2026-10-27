@@ -1,0 +1,391 @@
+{
+  "apps": [
+    {
+      "id": "myApps",
+      "name": "My Apps",
+      "description": "Browse GitHub apps.",
+      "longDescription": "My Apps lists the apps in the author's public GitHub repository, with their pictures and screenshots, and downloads and installs them with Android's own tools. Open one to see it, or download and install them all at once.",
+      "facts": [["Source", "Public GitHub repository"], ["Installs with", "Android's own installer"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Only used to ask GitHub which apps there are and to save their names, pictures and screenshots. Android's Download Manager fetches the apps. There is no server of ours.", "pill": "GitHub only", "tone": "good"},
+        {"title": "Downloaded files", "text": "Apps you download are saved in your Downloads folder, where you can open and delete them like any file.", "pill": "In Downloads", "tone": "neutral"},
+        {"title": "Installing", "text": "Hands a downloaded file to Android's own installer, which asks you first, every time. It cannot install anything by itself and never looks at which apps you have installed.", "pill": "Android asks you", "tone": "good"},
+        {"title": "What is kept on this phone", "text": "The list, names, pictures and screenshots are saved in the app's private storage, so it opens at once and works offline.", "pill": "Stays here", "tone": "good"},
+        {"title": "Tracking and ads", "text": "No analytics, no crash reporting, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "The app's data is left out of Android's cloud backup and of phone-to-phone transfer.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myApps.png",
+      "ui": ["image1.png", "image2.png", "image3.png"],
+      "lastBuild": "2026-10-27T01:34:26Z"
+    },
+    {
+      "id": "myAssistant",
+      "name": "My Assistant",
+      "description": "Offline AI assistant.",
+      "longDescription": "My Assistant runs an open-source language model entirely on this phone, once you've downloaded one. Chats, the model file and every setting stay local: no account, no cloud, no server in the loop.",
+      "facts": [["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Only used to {download a model} file you choose, and for the optional {web page on your own Wi-Fi}. {Chatting never touches the internet}.", "pill": "On request", "tone": "good"},
+        {"title": "Your chats", "text": "Chats, settings and downloaded models are saved privately on this phone.", "pill": "On phone", "tone": "good"},
+        {"title": "Notifications", "text": "Tells you when a model has finished downloading.", "pill": "Downloads only", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myAssistant.png",
+      "ui": ["image1.png", "image2.png", "image3.png"],
+      "lastBuild": "2026-10-23T15:39:19Z"
+    },
+    {
+      "id": "myCalc",
+      "name": "My Calc",
+      "description": "",
+      "longDescription": "",
+      "facts": [],
+      "privacy": [],
+      "icon": "myCalc.png",
+      "ui": []
+    },
+    {
+      "id": "myCalendar",
+      "name": "My Calendar",
+      "description": "Private calendar and agenda.",
+      "longDescription": "My Calendar shows your days as a year, a month, a week, a day or one long agenda, with events that repeat the way real life does (every other Thursday, the 4th Thursday of the month, every weekday) and several calendars you can switch on and off. Export or import any calendar as a file you own. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Views", "Year · Month · Week · Day · Agenda"], ["Repeats", "Daily to yearly · custom"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Everything stays on this phone.", "pill": "None", "tone": "good"},
+        {"title": "Your events", "text": "Saved on this phone only. Nothing is sent to any service or cloud. The only files it touches are the ones you choose to export or import.", "pill": "On phone", "tone": "good"},
+        {"title": "Other apps", "text": "My Launcher can show what is on your calendar, and add an event from its search, but only after you allow each in Android's own dialog. It cannot change or delete an event, and notes, links and passcodes are never shared. If you switch on the Birthdays calendar, this app reads the birthdays of your contacts from My Connect, the same way: only if you allow it, and only to read.", "pill": "Only if allowed", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup. Backups are files you save yourself.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myCalendar.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png"],
+      "lastBuild": "2026-10-23T15:39:31Z"
+    },
+    {
+      "id": "myClock",
+      "name": "My Clock",
+      "description": "Alarms, timers and world time.",
+      "longDescription": "My Clock is a clock, an alarm clock, a timer, a stopwatch and a world clock you can slide through the day: tap New York, slide to 8 am, and see what time it is in India. A running timer or the stopwatch stays in the notification bar with Pause, +1 min and Lap buttons, and as a live pill on Android 16. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Includes", "Clock · Alarm · Timer · Stopwatch · World clock"], ["Timers", "Live in the notification bar"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Everything stays on this phone.", "pill": "None", "tone": "good"},
+        {"title": "Your alarms and timers", "text": "Saved on this phone only. Nothing is sent to any service or cloud.", "pill": "On phone", "tone": "good"},
+        {"title": "Other apps", "text": "My Launcher can show your world clock, alarms, timers and stopwatch, switch an alarm on or off, make a new alarm from its search, start, pause or reset a timer, and run the stopwatch, but only after you allow each in Android's own dialog. It cannot change or delete an alarm.", "pill": "Only if allowed", "tone": "neutral"},
+        {"title": "Notifications", "text": "Rings an alarm or a timer, and keeps a running timer or stopwatch in the notification bar with its controls.", "pill": "When due", "tone": "neutral"},
+        {"title": "On-time alarms", "text": "Alarms and timers ring at the exact time, and are set up again after the phone restarts.", "pill": "Exact time", "tone": "neutral"},
+        {"title": "Over the lock screen", "text": "A ringing alarm or timer can fill the screen, even when the phone is locked.", "pill": "When ringing", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myClock.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png"],
+      "lastBuild": "2026-10-23T15:39:43Z"
+    },
+    {
+      "id": "myConnect",
+      "name": "My Connect",
+      "description": "Calls, contacts and messages.",
+      "longDescription": "My Connect puts your phone, contacts and text messages in one place. Dial with smart suggestions, browse people as a list, a grid or photo cards, read and send texts, block unwanted callers by number, range or pattern, and back everything up as files you own. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Handles", "Calls · Contacts · SMS"], ["Backs up as", "vCard · CSV · JSON · XML"], ["Requires", "Android 11+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Your contacts, calls and messages are read from this phone and nothing leaves it.", "pill": "None", "tone": "good"},
+        {"title": "Contacts", "text": "Shows them, and changes them only when you add, edit, merge or delete one, or restore a backup.", "pill": "Read and write", "tone": "good"},
+        {"title": "Calls", "text": "Places a call only when you tap a number. Reads the call log to show it, and edits it only to delete or restore calls.", "pill": "Call and log", "tone": "good"},
+        {"title": "Messages", "text": "Reads your texts to show them, and sends one only when you press send. Writes to the message store only as your messages app.", "pill": "Read and send", "tone": "good"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup. Backups are files you save yourself.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myConnect.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png", "image7.png", "image8.png", "image9.png"],
+      "lastBuild": "2026-10-23T15:39:54Z"
+    },
+    {
+      "id": "myEmulator",
+      "name": "My Emulator",
+      "description": "Classic game emulator.",
+      "longDescription": "My Emulator plays classic NES, Game Boy and Game Boy Color games from files you own. It keeps your place, saves wherever you like, works with touch, game pads and keyboards (with remappable keys, toggles, turbo and combos) and never needs a connection. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Plays", "NES · Game Boy · Game Boy Color"], ["File types", ".nes · .gb · .gbc · .zip"], ["Requires", "Android 11+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Your games and saves stay on this phone and nothing leaves it.", "pill": "None", "tone": "good"},
+        {"title": "Your game files", "text": "Reads only the game files and folders you pick with Android's own picker. It asks for no storage permission and never changes or deletes your files.", "pill": "Only what you pick", "tone": "good"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myEmulator.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png"],
+      "lastBuild": "2026-10-23T15:40:07Z"
+    },
+    {
+      "id": "myExpense",
+      "name": "My Expense",
+      "description": "Track income and expenses.",
+      "longDescription": "My Expense keeps track of what you spend and earn, shows where the money goes with charts, and helps you stay inside your budgets. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Works", "Fully offline"], ["Data", "Stays on this phone"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Everything stays on this phone.", "pill": "None", "tone": "good"},
+        {"title": "Your data", "text": "Your expenses, budgets and settings are saved on this phone only. The only files it touches are the ones you choose to export or restore.", "pill": "On phone", "tone": "good"},
+        {"title": "Other apps", "text": "My Launcher can show this month's totals and your latest transactions, and add an expense or an income from its search, but only after you allow each in Android's own dialog. It cannot change or delete what is already there.", "pill": "Only if allowed", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myExpense.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png", "image7.png", "image8.png"],
+      "lastBuild": "2026-10-23T15:40:20Z"
+    },
+    {
+      "id": "myFile",
+      "name": "My File",
+      "description": "Manage files easily.",
+      "longDescription": "My Files is a file manager for this phone: browse every folder, work in two panes at once, copy and move files, keep the folders you use most in Quick access, star favorites, and find anything by name with wildcards or regular expressions. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Search", "Text · wildcard · regex"], ["Panes", "One or two"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Nothing you do here leaves the phone.", "pill": "None", "tone": "good"},
+        {"title": "All your files", "text": "It can see and change every file on this phone, because that is what a file manager does. Nothing is ever sent anywhere.", "pill": "All files", "tone": "warning"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myFile.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png"],
+      "lastBuild": "2026-10-23T15:40:32Z"
+    },
+    {
+      "id": "myGalary",
+      "name": "My Galary",
+      "description": "Private photo gallery.",
+      "longDescription": "My Galary shows the pictures that are already on your phone by date, looks back at what happened on this day in earlier years, and helps you free space: swipe through old photos, find the biggest ones, and sort them by where they came from. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Shows", "JPEG · PNG · HEIC · WebP · GIF"], ["Sorts by", "Date · Size · Kind · Folder"], ["Requires", "Android 11+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Your photos are read from this phone and nothing leaves it.", "pill": "None", "tone": "good"},
+        {"title": "Your photos", "text": "Reads the photos on this phone to show them, never to send them anywhere. A photo is only removed after you confirm it in Android's own sheet.", "pill": "Read, delete on request", "tone": "good"},
+        {"title": "Fingerprint, face or screen lock", "text": "Only to open the app, when you turn the app lock on, and the Hidden album. Android does the check and only says yes or no: the app never sees your fingerprint or face.", "pill": "Optional", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myGalary.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png", "image7.png", "image8.png"],
+      "lastBuild": "2026-10-23T15:40:44Z"
+    },
+    {
+      "id": "myGlance",
+      "name": "My Glance",
+      "description": "Clock, timers and tools.",
+      "longDescription": "My Glance is a minimalist card clock for a phone on your desk, on its side or upright: a big clock, three tiles you choose, three timers and a panel of small work tools. Light or dark, with a Full AMOLED view that is pure black. No account and no ads.",
+      "facts": [["Weather", "Open-Meteo (free)"], ["Account", "None needed"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Only used for the weather and the town search, both from Open-Meteo. Nothing else uses the internet.", "pill": "Weather only", "tone": "accent"},
+        {"title": "Your data", "text": "Settings, reminders and your note are saved on this phone only. The place you pick is sent to Open-Meteo to get its weather.", "pill": "On phone", "tone": "accent"},
+        {"title": "Calendar", "text": "Reads the appointments on this phone to list your next ones. It never saves or sends them.", "pill": "Read only", "tone": "accent"},
+        {"title": "Vibration", "text": "Buzzes along with the sound when a timer runs out.", "pill": "Timers only", "tone": "accent"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "accent"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "accent"}
+      ],
+      "icon": "myGlance.png",
+      "ui": ["image1.png", "image2.png", "image3.png"],
+      "lastBuild": "2026-10-23T18:46:50Z"
+    },
+    {
+      "id": "myLauncher",
+      "name": "My Launcher",
+      "description": "A personal home and app launcher",
+      "longDescription": "My Launcher is a home screen that looks and behaves like the Pixel Launcher: pages of icons, folders and widgets over your wallpaper, a dock, a search pill and an apps list with tabs and a letter bar. On top of that it has My Apps integration (swipe right from the first page) with now playing, reminders, calendar, clock, prayer times, notes, expenses, weather, connect, files, network and server from the other My apps. Type # in its search to do things: add a note, an expense, a reminder or an event, set an alarm or a timer, switch the network filter, or play an album by name.",
+      "facts": [["Looks like", "The Pixel Launcher"], ["Extras", "My Apps integration · # search commands · icon packs"], ["Requires", "Android 11+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet: the app has no network permission at all, so Android itself refuses any connection.", "pill": "None", "tone": "good"},
+        {"title": "Your apps", "text": "Reads the list of installed apps through Android's launcher service, and only to show them. The list never leaves the phone.", "pill": "On the phone only", "tone": "good"},
+        {"title": "Notification access", "text": "Optional, and given in Android's own settings, not asked here. It is used for the dots on icons and for what is playing. The launcher keeps only which apps have a notification, and what is playing: never their text.", "pill": "You decide", "tone": "good"},
+        {"title": "My Apps integration", "text": "Reads a little from the other My apps, only after you allow each one in Android's own dialog. It can also do a few things in them when you ask, each with a permission of its own: tick a reminder off, switch an alarm on or off and run a timer or the stopwatch, start or stop the network filter and My Server, and, from the search, add a reminder, an event, a line to a note or an expense, or set an alarm or a timer.", "pill": "Allowed one by one", "tone": "good"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your home screen and settings are never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myLauncher.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png", "image7.png", "image8.png", "image9.png", "image10.png"],
+      "lastBuild": "2026-10-27T03:25:02Z"
+    },
+    {
+      "id": "myMovie",
+      "name": "My Movie",
+      "description": "Offline video player.",
+      "longDescription": "My Movie plays the video files that are already on your phone: MP4, MKV, AVI, WebM and more, with subtitles, gestures, picture in picture, a history that remembers where you stopped, and playlists. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Plays", "MP4 · MKV · AVI · WebM · MOV"], ["Subtitles", "SRT · VTT · ASS · TTML"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Your videos are read from this phone and nothing leaves it.", "pill": "None", "tone": "good"},
+        {"title": "Video folders", "text": "Only the folders you pick. It cannot see anything else on the phone.", "pill": "Folders only", "tone": "good"},
+        {"title": "Playing in the background", "text": "Can keep the sound playing when you leave the app or the screen is off (you choose in Settings), with playback controls in the notification.", "pill": "While playing", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myMovie.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png"],
+      "lastBuild": "2026-10-23T18:47:07Z"
+    },
+    {
+      "id": "myMusic",
+      "name": "My Music",
+      "description": "Offline music player.",
+      "longDescription": "My Music plays the music files that are already on your phone: songs, albums, artists and folders, a queue you can reorder, playlists, and home screen widgets. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Plays", "MP3 · M4A · FLAC"], ["Browse by", "Album · Artist · Folder"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Your music is read from this phone and nothing leaves it.", "pill": "None", "tone": "good"},
+        {"title": "Music folders", "text": "Only the folders you pick. It cannot see anything else on the phone.", "pill": "Folders only", "tone": "good"},
+        {"title": "Playing in the background", "text": "Keeps music playing when the app is closed or the screen is off, with playback controls in the notification.", "pill": "While playing", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myMusic.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png", "image7.png"],
+      "lastBuild": "2026-10-26T19:19:16Z"
+    },
+    {
+      "id": "myNetwork",
+      "name": "My Network",
+      "description": "Block ads and trackers.",
+      "longDescription": "My Network blocks ads and trackers on this phone by refusing the name lookups that belong to them, and shows you which sites your apps talk to. It works as a local VPN: nothing is sent to a server of ours, and your pages, videos and messages travel the way they always did. Blocklists are yours to choose, import and export.",
+      "facts": [["Blocks", "Ads · trackers · malware names"], ["How", "Local VPN, DNS only"], ["Requires", "Android 11+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Used to pass the names that are let through on to the DNS server you chose, and to download a blocklist when you add or update one. There is no server of ours, and your log is never sent anywhere.", "pill": "DNS and lists", "tone": "good"},
+        {"title": "VPN connection", "text": "A local one: the app only takes the DNS lookups of your apps, on this phone, and answers them itself or passes them to the DNS server you chose. No traffic goes through any server of ours.", "pill": "On this phone", "tone": "good"},
+        {"title": "The log", "text": "The names your apps looked up are kept in a small database on this phone, for the dashboard. Switch it off, set how long it is kept, or clear it in Settings.", "pill": "On the phone only", "tone": "good"},
+        {"title": "Apps on this phone", "text": "Reads the names of installed apps to say which one made a lookup, and to let you leave some out. The list never leaves the phone.", "pill": "Names only", "tone": "good"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup. Backups are files you save yourself.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myNetwork.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png"],
+      "lastBuild": "2026-10-23T18:47:30Z"
+    },
+    {
+      "id": "myNote",
+      "name": "My Note",
+      "description": "Private notes.",
+      "longDescription": "My Note keeps your quick notes on this phone, in the same calm look as the rest of the family. Switch on remote access to read and edit them from a browser on the same Wi-Fi. No account and no ads.",
+      "facts": [["Account", "None needed"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Only used while remote access is on, to share your notes page with a computer on your own Wi-Fi. Nothing goes out over the internet.", "pill": "Wi-Fi only", "tone": "good"},
+        {"title": "Your notes", "text": "Saved on this phone only. Nothing is sent to any service or cloud.", "pill": "On phone", "tone": "good"},
+        {"title": "Other apps", "text": "My Launcher can show the headings of your latest notes, and add a line to a note from its search, but only after you allow each in Android's own dialog. Locked notes are never shown or touched, and nothing can be changed or deleted this way.", "pill": "Only if allowed", "tone": "neutral"},
+        {"title": "Remote access", "text": "While remote access is on, the app keeps running when the screen is off and shows a notification that says so.", "pill": "While it is on", "tone": "neutral"},
+        {"title": "Fingerprint and face", "text": "Only to open notes you lock. Android does the check and only tells the app yes or no: the app never sees your fingerprint or face.", "pill": "Locked notes", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myNote.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png"],
+      "lastBuild": "2026-10-23T18:47:41Z"
+    },
+    {
+      "id": "myPrayer",
+      "name": "My Prayer",
+      "description": "Prayer times and reminders.",
+      "longDescription": "My Prayer works out the daily prayer times for where you are, counts down to the next one and reminds you when it begins. Everything is calculated on this phone: no account, no cloud and no internet.",
+      "facts": [["Works", "Fully offline"], ["Location", "Only to work out times"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Prayer times are worked out on this phone.", "pill": "None", "tone": "good"},
+        {"title": "Location", "text": "Your approximate position, only when you tap Use my location. It never leaves the phone.", "pill": "On request", "tone": "good"},
+        {"title": "Notifications", "text": "Tells you when a prayer time begins.", "pill": "Prayer times", "tone": "neutral"},
+        {"title": "On-time reminders", "text": "Reminders go off at the exact minute, and keep working after the phone restarts.", "pill": "Exact time", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myPrayer.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png"],
+      "lastBuild": "2026-10-23T14:48:15Z"
+    },
+    {
+      "id": "myReminder",
+      "name": "My Reminder",
+      "description": "Smart reminders.",
+      "longDescription": "My Reminder keeps the things you don't want to forget, and nudges you when they are due, in the same calm look as the rest of the family. Everything stays on this phone. No account and no ads.",
+      "facts": [["Account", "None needed"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Everything stays on this phone.", "pill": "None", "tone": "good"},
+        {"title": "Your reminders", "text": "Saved on this phone only. Nothing is sent to any service or cloud.", "pill": "On phone", "tone": "good"},
+        {"title": "Other apps", "text": "My Launcher can show your upcoming reminders, and, from its search, add a reminder or tick one off, but only after you allow each in Android's own dialog. It cannot change or delete a reminder.", "pill": "Only if allowed", "tone": "neutral"},
+        {"title": "Notifications", "text": "Shows a reminder when it is due.", "pill": "When due", "tone": "neutral"},
+        {"title": "On-time alarms", "text": "Reminders ring at the exact minute, and are set up again after the phone restarts.", "pill": "Exact time", "tone": "neutral"},
+        {"title": "Over the lock screen", "text": "Important reminders can fill the screen, even when the phone is locked.", "pill": "Important only", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myReminder.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png"],
+      "lastBuild": "2026-10-23T14:48:21Z"
+    },
+    {
+      "id": "mySecret",
+      "name": "My Secret",
+      "description": "Encrypted password manager.",
+      "longDescription": "My Secret keeps your passwords, one-time codes and payment cards in one encrypted vault that opens with a single master password. Everything stays on this phone: no account, no cloud and no internet.",
+      "facts": [["Encryption", "AES-256-GCM"], ["Key made with", "PBKDF2-SHA256"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Everything stays on this phone.", "pill": "None", "tone": "good"},
+        {"title": "Files you pick", "text": "Only the files you choose to back up, restore or import. It cannot see any other file.", "pill": "Files only", "tone": "good"},
+        {"title": "Encryption", "text": "Your vault is locked with a key made from your master password. The password itself is never saved.", "pill": "On", "tone": "good"},
+        {"title": "Fingerprint or face", "text": "Optional. Lets you unlock with your fingerprint or face. The scan stays in the phone's own secure area; this app never sees it.", "pill": "Optional", "tone": "neutral"},
+        {"title": "Camera", "text": "Optional and off until you allow it. Only for scanning a one-time-code QR code; nothing is recorded or saved. Or type the secret instead.", "pill": "Optional", "tone": "neutral"},
+        {"title": "Autofill", "text": "Off until you choose it in Android's settings. Then Android shows this app the login form on screen so it can fill it, after you unlock the vault. Nothing leaves the phone.", "pill": "Optional", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "mySecret.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png"],
+      "lastBuild": "2026-10-23T14:48:33Z"
+    },
+    {
+      "id": "myServer",
+      "name": "My Server",
+      "description": "Share files from your phone.",
+      "longDescription": "My Server shares folders on your phone over SFTP or in a web browser (HTTPS) so you can move files to and from any computer on your network with the tools you already use. Everything stays on your devices: no account, no cloud.",
+      "facts": [["Protocols", "SFTP · HTTPS"], ["Default ports", "2222 · 8443"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Network", "text": "Only takes connections while the server runs. It never connects out to anything.", "pill": "Incoming only", "tone": "accent"},
+        {"title": "Your files", "text": "Other devices can only reach the folder you share, and only while the server runs. The app needs to be able to read and change files in that folder.", "pill": "Shared folder", "tone": "accent"},
+        {"title": "Encryption", "text": "Every connection is encrypted, and the password is saved in an encrypted form.", "pill": "On", "tone": "good"},
+        {"title": "Running in the background", "text": "Keeps the server running when the screen is off, and shows a notification while it does.", "pill": "While it runs", "tone": "neutral"},
+        {"title": "After a restart", "text": "Can start the server again after the phone restarts, if you turn that on.", "pill": "Optional", "tone": "neutral"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myServer.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png"],
+      "lastBuild": "2026-10-23T14:48:44Z"
+    },
+    {
+      "id": "mySidebar",
+      "name": "My Sidebar",
+      "description": "Quick access to favorite apps.",
+      "longDescription": "My Sidebar puts a thin handle on the edge of your screen. Swipe in from it, over any app, and a glass panel slides out with three panels: your favorite apps and settings, every app on the phone, and quick toggles. You choose where the handle sits, and how the panel looks. No account and no ads.",
+      "facts": [["Opens from", "Left or right edge"], ["Account", "None needed"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Never connects to the internet. Nothing you do here ever leaves the phone.", "pill": "None", "tone": "accent"},
+        {"title": "Your apps", "text": "The list of apps is read on this phone each time the sidebar opens, to show it to you. It is never saved or sent anywhere.", "pill": "On phone", "tone": "accent"},
+        {"title": "Over other apps", "text": "Used only to draw the handle and the sidebar on top of other apps. It cannot see what is in them.", "pill": "Draw only", "tone": "accent"},
+        {"title": "Quick actions", "text": "Optional. Lets the sidebar press Back, Home and Recents, open the notifications, lock the screen and take screenshots for you. It cannot read your screen, and stays off until you switch it on in the phone's accessibility settings.", "pill": "Optional", "tone": "accent"},
+        {"title": "System settings", "text": "Optional. Lets the sidebar change the brightness and Auto rotate and switch Do not disturb, but only after you allow each one in the phone's settings.", "pill": "Optional", "tone": "accent"},
+        {"title": "Keeps running", "text": "Stays on screen with a quiet notification that can turn it off, and comes back after the phone restarts.", "pill": "While on", "tone": "accent"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "accent"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "accent"}
+      ],
+      "icon": "mySidebar.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png"],
+      "lastBuild": "2026-10-23T14:48:56Z"
+    },
+    {
+      "id": "myWeather",
+      "name": "My Weather",
+      "description": "Local weather forecasts.",
+      "longDescription": "My Weather shows the weather where you are now, the next 24 hours and the week ahead, in the same calm look as the rest of the family. No account and no ads. Forecasts come from Open-Meteo, a free weather service.",
+      "facts": [["Forecasts", "Open-Meteo (free)"], ["Account", "None needed"], ["Requires", "Android 8.0+"], ["Built with", "Kotlin · Compose"]],
+      "privacy": [
+        {"title": "Internet", "text": "Only used to get the forecast and to search for places, from Open-Meteo. Nothing else uses the internet.", "pill": "Forecast only", "tone": "good"},
+        {"title": "Your places", "text": "The places you pick are saved on this phone. Only a place's position is sent to Open-Meteo, to get its forecast.", "pill": "On phone", "tone": "good"},
+        {"title": "Your location", "text": "Your approximate position, only when you tap Use my location.", "pill": "On request", "tone": "good"},
+        {"title": "Tracking and ads", "text": "No analytics, no accounts, no ads.", "pill": "None", "tone": "good"},
+        {"title": "Cloud backup", "text": "Your data is never copied to the cloud, not even by Android's own backup.", "pill": "Off", "tone": "good"}
+      ],
+      "icon": "myWeather.png",
+      "ui": ["image1.png", "image2.png", "image3.png", "image4.png"],
+      "lastBuild": "2026-10-23T14:49:08Z"
+    }
+  ]
+}
